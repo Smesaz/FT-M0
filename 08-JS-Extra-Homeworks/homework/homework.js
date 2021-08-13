@@ -136,10 +136,10 @@ function buscoInterseccion(arreglo1, arreglo2){
   for(i=0;i<arreglo1.length;i++){
     for(j=0;j<arreglo2.length;j++){
       if(arreglo1[i]===arreglo2[j]){
-        array[i]=arreglo1[i];
+        array.push(arreglo1[i]);
       }
     }
-    j=0;
+    
   }
   return array;
 }
